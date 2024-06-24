@@ -2,13 +2,19 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
+    "dev": "sst bind next dev",
     "start": "next start"
   },
   "dependencies": {
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "open-next": "^3.0.5",
+    "sst": "^2.43.2",
+    "aws-cdk-lib": "2.142.1",
+    "constructs": "10.3.0"
   },
   "engines": {
     "node": ">=18"
